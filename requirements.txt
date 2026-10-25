@@ -1,0 +1,10 @@
+mujoco>=3.3
+numpy
+torch
+opencv-python-headless
+pillow
+imageio
+imageio-ffmpeg
+anthropic>=0.70
+pydantic>=2
+matplotlib

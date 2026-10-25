@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "seed": 7,
+  "objects": ["apple", "orange", "banana", "can", "bottle", "red_block", "blue_block", "yellow_block"],
+  "title": "言葉で頼める片付けロボット",
+  "subtitle": ["自前学習の視覚AI × LLM プランナー × Franka Panda（MuJoCo）",
+               "動画は等倍速です"],
+  "instructions": [
+    "お腹がすいたから、食べられるものを集めておいて",
+    "飲み終わったものはリサイクルに出しておいて",
+    "ぬいぐるみもしまっておいて",
+    "最後に、おもちゃを片付けて"
+  ],
+  "ending": ["視覚：合成データで学習した U-Net（物体8種のセグメンテーション）",
+             "計画：Claude による指示の解釈 / 制御：逆運動学 + 視覚による成否確認と再試行"]
+}
